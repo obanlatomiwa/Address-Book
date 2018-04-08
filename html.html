@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ADDRESS BOOK</title>
+    <link href="css.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="a" align="center">ADDRESS BOOK</h1>
+    <p>This is a simple <span class="a">Address Book.</span></p>
+    <div>
+        <ul id="prototype">
+            <li>Users can add contacts.</li>
+            <li>Users can view the contact lists.</li>
+            <li>On clicking on a contact name, the details of the contact is dislilayed.</li>
+            <li>Users can edit a contact's details.</li>
+            <li>Users can delete a contact's details.</li>
+        </ul>
+    </div>
+    <form class="form">
+        <div id="form-main">
+            <fieldset class="group">
+                <h1><p align="center" class="a">CONTACT'S INFORMATION FORM</p></h1>
+                <ul class="list">
+                    <li class="list" ><input id="name" type="text" placeholder="Contact's Name" name="contact's name"/></li>
+                    <li class="list" ><input type="text" id="number" placeholder="Phone Number" name="phone number" /></li>
+                    <li class="list"><input type="email"  id="email" placeholder="Email Address" name="email"/></li>
+                    <li class="submit-button" ><button id="submit" type="button" name="address book"  onclick="handleSubmission()">SUBMIT</button></li>
+                </ul>
+            </fieldset>
+        </div>
+    </form>
+
+    <div id="submissions">
+
+    </div>
+
+    <div>
+
+        <form class="form">
+            <fieldset class="group">
+            <div>
+                <h1 align="center" class="a">SEARCH CONTACTS</h1>
+                <label>
+                    <input type="text" name="search" id="search" placeholder="Enter Name of Contact" />
+                </label>
+
+            </div>
+                <p class="submit-button"><button type="button" value="Submit" > SUBMIT </button></p>
+            </fieldset>
+        </form>
+    </div>
+
+<script type="text/javascript" src="js.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+User should be able to add contact
+- User should be able to see the list of contact
+names
+- On clicking on a contact name, the details of
+the contact should be displayed
+- User should be able to edit a contact’s details
+- User should be able to delete a contact’s
+details
+
+
+Recaps
+started on the 5th of april,2018 due to school work overload.
+it was challenging.
+my coding style doesn't look perfect to me.
+definitely i have to improve.
+at least, i can cut myself some slack, i have designed and completed a very huge (as per a beginner) project.
+
+problems encountered
+i was using var, i was having lots of bugs in my javascript (my variables where undefined).... i consulted google and learnt of a new way....using let.
+i still don't understand why, we find out tho... but i have to submit before the 11th, we check about it later....lol

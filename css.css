@@ -1,0 +1,58 @@
+*body{
+    font-family: Arial,sans-serif,"Times New Roman"
+}
+
+.form, .form-main {
+    text-align: center;
+    -moz-text-size-adjust: auto;
+}
+
+.a {
+    text-decoration: cornflowerblue underline overline;
+
+
+}
+#prototype{
+    list-style: circle inside;
+    background-color: cornflowerblue;
+
+}
+fieldset{
+    margin: 20px 20% 20px 20%;
+}
+
+.list {
+    list-style: none;
+    padding: 10px 0px 0px 0px;
+}
+
+.submit-button {
+    display: inline-block;
+    border: none;
+    border-radius: 0px;
+    width: 10%;
+    text-align: center;
+    cursor: auto;
+    overflow: visible;
+}
+
+.submit-button input{
+    width: 20%;
+}
+
+form{
+    border-width: 10px 0px 10px 0px;
+}
+
+#group {
+    border-width: 2px 0px 2px 0px;
+    border-style: solid;
+}
+
+input{
+    width:100%;
+    box-sizing:border-box;
+    font-size:10px;
+    margin-top:5px;
+    padding:5px;
+}
